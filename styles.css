@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Denk One', sans-serif;
+  font-size: 9vw;
+}
+
+#time {
+  background: linear-gradient(180deg, rgba(153,0,204,1) 0%, rgba(103,0,138,1) 100%);
+  width: 70vw;
+  height: 70vh;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
